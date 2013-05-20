@@ -9,8 +9,7 @@ Iterative random selection of train sites for supervised classification of image
 
 Maria Francisca Carreño (mariafra # um.es), Jose Antonio Palazon (palazon # um.es), Juan Carlos Gonzalez Rojas (jcgonzalezr # gmail.com) and Javier Martinez-Lopez (javier.martinez # um.es).
 
-*Ecology and Hydrology Department*
-*University of Murcia*
+*Ecology and Hydrology Department* - *University of Murcia (Spain)*
 
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
 
@@ -34,11 +33,13 @@ This third script is executed under the GRASS GIS environment in order to assign
 
 ## Step 4
 
+The fourth script is an intermediate step executed under the GRASS GIS environment in order to rename maps to avoid overwriting.
 
 ## Step 5
 
+The fifth script is an intermediate step executed under the GRASS GIS environment in order to delete null values from the class and frequency maps in order to read them properly with R.
 
 ## Step 6
 
-
+The sixth and last script is executed under the R environment (within the GRASS GIS environment) in order to obtain a final classification map in with each pixel has been assigned the class with highest assignment frequency.
 
