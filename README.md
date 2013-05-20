@@ -7,26 +7,30 @@ Iterative random selection of train sites for supervised classification of image
 
 # Authors
 
-Maria Francisca Carreño, Jose Antonio Palazon and Javier Martinez-Lopez
+Maria Francisca Carreño (mariafra # um.es), Jose Antonio Palazon (palazon # um.es), Juan Carlos Gonzalez Rojas (jcgonzalezr # gmail.com) and Javier Martinez-Lopez (javier.martinez # um.es).
 
-*Shared under CC license*
+*Ecology and Hydrology Department*
+*University of Murcia*
 
-# DeStep ion
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
 
-Plain text Step s used for the iterative train selection classification procedure (in order of execution). Tested under Linux.
+# Description
 
-This first Step  is executed under the GRASS GIS environment in order to generate several subsets of random train areas and the corresponding supervised classification maps. Train sites map is used as input, together with the number of train areas to be randomly selected from each land cover class for each classification. The \# symbol appear before comments and '...' stands for input variables.
+Plain text Step s used for the iterative train selection classification procedure (in order of execution). Tested under Linux. The # symbol appear before comments and '...' stands for input variables.
 
 # Protocol
 
 ## Step 1
 
+This first Step  is executed under the GRASS GIS environment in order to generate several subsets of random train areas and the corresponding supervised classification maps. Train sites map is used as input, together with the number of train areas to be randomly selected from each land cover class for each classification.
 
 ## Step 2
 
+The second script is executed under the GRASS GIS environment in order to create assignation frequency maps for each class and pixel in the map.
 
 ## Step 3
 
+This third script is executed under the GRASS GIS environment in order to assign the most frequent land cover class to each pixel.
 
 ## Step 4
 
