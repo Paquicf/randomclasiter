@@ -15,7 +15,7 @@ Maria Francisca Carreño (mariafra # um.es), Jose Antonio Palazon (palazon # um.
 
 # Description
 
-Plain text Step s used for the iterative train selection classification procedure (in order of execution). Tested under Linux. The # symbol appear before comments and '...' stands for input variables.
+Plain text scripts used for the iterative train selection classification procedure (in order of execution). Tested under Linux. The # symbol appear before comments and '...' stands for input variables.
 
 # Protocol
 
