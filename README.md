@@ -1,7 +1,9 @@
 randomclasiter
 ==============
 
-Iterative random selection of train sites for supervised classification of image using GRASS GIS and R
+**Iterative random selection of train sites for supervised classification of image using GRASS GIS and R**
+
+The procedure combines GRASS GIS, R and bash scripts to automatically perform several supervised classifications, randomly selecting a different subset of train areas each time.
 
 # Authors
 
